@@ -1,4 +1,4 @@
-function testEven(){
+function testEven(n){
     // if n modulo 2 equals to xero
     // then return true
     // else
@@ -9,3 +9,5 @@ function testEven(){
         return false
     }
 }
+
+console.log(testEven(2))
