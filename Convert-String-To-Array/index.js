@@ -3,5 +3,5 @@
 // split the string by implementing a space in betweek the quotes to capture the whole word
 // return - and it split method returns an array
 function stringToArray(string){
-    string.split(' ')
+    return string.split(' ')
 }
