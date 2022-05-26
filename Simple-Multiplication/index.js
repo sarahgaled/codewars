@@ -4,3 +4,7 @@
 // then multiply the given number by 8
 // else multiply that number by 9
 // and return 
+
+function simpleMultiplication(number){
+
+}
