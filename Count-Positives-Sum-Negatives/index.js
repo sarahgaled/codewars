@@ -9,7 +9,10 @@ let positiveCount = 0
 // and a variable to store the negative count
 let negativeCount = 0
 // loop through the input array
+for(let i = 0; i < input.length; i++){
 // if the number is greater than 0
+}
+
 // then count the positive numbers 
 // if the number is less than 0
 // then add the negative numbers
