@@ -13,6 +13,7 @@ for(let i = 0; i < input.length; i++){
 // if the number is greater than 0
 if(input[0] > 0){
 // then count the positive numbers 
+positiveCount++
  }
 }
 
