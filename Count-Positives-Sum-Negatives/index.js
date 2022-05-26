@@ -2,6 +2,7 @@ function countPositivesSumNegatives(input){
 // if the input is null empty or 0
 if(input === null || input.length === 0){
 // return an empty array
+return []
 }
 
 // create a result array
