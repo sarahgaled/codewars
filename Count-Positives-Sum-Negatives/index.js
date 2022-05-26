@@ -21,10 +21,6 @@ positiveCount++
      negativeCount += input[0]
  
 }
-
-
-
-
-// return the result with the positive count and sum of negative numbers
-
+// return the array with the positive count and sum of negative numbers
+return [positiveCount, negativeCount]
 }
