@@ -7,12 +7,15 @@ let sum = 0
 for(let i = 0; i < arr.length; i++){
 // if the element is greater than 0
 if(arr[i] > 0){
-    
-}
-}
-}
-
-
-
 // add it to the variable sum
+sum += arr[i]
+}
+}
+
+
+}
+
+
+
+
 // return the sum
