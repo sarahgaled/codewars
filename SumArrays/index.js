@@ -4,9 +4,13 @@
 function sum(numbers){
 // create a variable result and let it = 0
 let result = 0
+// iterate through the array
+for(let i = 0; i < numbers.length; i++){
+    
+}
 }
 
-// iterate through the array
+
 // add all the elements of the array to the result variable
 // then return result
 
