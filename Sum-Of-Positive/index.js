@@ -5,11 +5,14 @@ function positiveSum(arr){
 let sum = 0
 // iterate through the array and check
 for(let i = 0; i < arr.length; i++){
+// if the element is greater than 0
+if(arr[i] > 0){
     
 }
 }
+}
 
 
-// if the element is greater than 0
+
 // add it to the variable sum
 // return the sum
