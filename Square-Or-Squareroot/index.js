@@ -10,7 +10,7 @@ function squareOrSquareRoot(array){
     // if yes then take the squareroot
     // if not then multiply that element by itself
     // and return it
-
+return array.map(x => Math.sqrt(x) == Math.sqrt(x).toFixed(0) ? Math.sqrt(x) : x * x)
 
     // orrrr
     // we could map through the array and use a ternary to check is the squareroot of x has a remainder of 1
