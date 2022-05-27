@@ -9,8 +9,6 @@ function sum(numbers) {
     // add all the elements of the array to the result variable
     result += numbers[i];
   }
-// then return result
-
+  // then return result
+  return result;
 }
-
-
