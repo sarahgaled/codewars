@@ -5,5 +5,6 @@ function digitize(n){
 // then we will use the split method to split the string
 // then use the reverse method to reverse the elements 
 // use the map method to iterate through the array and convert all the element strings into numbers by passing Number
-
+// return that
+return String(n).split('').reverse().map(Number)
 }
