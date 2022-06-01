@@ -8,3 +8,5 @@ function digitize(n){
 // return that
 return String(n).split('').reverse().map(Number)
 }
+
+console.log(digitize(348597))
