@@ -16,22 +16,47 @@ Dog Years
 
 // build the function humanYears and pass in humanYears as an argument
 
-function humanYearsCatYearsDogYears(humanYears) {
-  // itialize cat and dog years as 0
-  let catYears = 0;
-  let dogYears = 0;
-  // iterate through humanYears using a for loop
-  if (humanYears === 1) {
-    catYears = 15;
-    dogYears = 15;
-  } else if (humanYears === 2) {
-    catYears = 15 + 9;
-    dogYears = 15 + 9;
-  } else if (humanYears > 2) {
-    catYears = (16) + (4 * humanYears);
-    dogYears = (16) + (5 * humanYears) - 2;
-  }
-  return [humanYears, catYears, dogYears];
-}
+// function humanYearsCatYearsDogYears(humanYears) {
+//   // itialize cat and dog years as 0
+//   let catYears = 0;
+//   let dogYears = 0;
+//   // iterate through humanYears using a for loop
+//   if (humanYears === 1) {
+//     catYears = 15;
+//     dogYears = 15;
+//   } else if (humanYears === 2) {
+//     catYears = 15 + 9;
+//     dogYears = 15 + 9;
+//   } else if (humanYears > 2) {
+//     catYears = (16) + (4 * humanYears);
+//     dogYears = (16) + (5 * humanYears) - 2;
+//   }
+//   return [humanYears, catYears, dogYears];
+// }
 
-console.log(humanYearsCatYearsDogYears(10));
+
+
+// OR
+
+const humanYearsCatYearsDogYears = (humanYears) => {
+    let catYears = 0;
+    let dogYears = 0;
+    
+    for (let i = 1; i <= humanYears; i++) {
+      if (i === 1) {
+        catYears += 15;
+        dogYears += 15;
+      }
+      else if (i === 2) {
+        catYears += 9;
+        dogYears += 9;
+      }
+      else {
+        catYears += 4;
+        dogYears += 5;
+      }
+    }
+    return [humanYears,catYears,dogYears];
+  }
+
+  console.log(humanYearsCatYearsDogYears(10));
